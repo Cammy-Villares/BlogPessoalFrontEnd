@@ -4,7 +4,7 @@ import './CadastroUsuario.css';
 import { Typography } from '@material-ui/core';
 import { Link, useNavigate } from 'react-router-dom';
 import User from '../../models/User';
-import { CadastroUsuario } from '../../services/Service';
+import {cadastroUsuario} from '../../services/Service';
 
 function CadastroUsuario() {
   let navigate = useNavigate();
